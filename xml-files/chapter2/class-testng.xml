@@ -1,0 +1,9 @@
+<suite name="Class Suite" verbose="1" >
+    <test name="Test" >
+        <classes>
+            <class name="com.packt.testng.chapter1.FirstTest" />
+            <class name="com.packt.testng.chapter2.SecondTest" />
+            <class name="com.packt.testng.chapter2.ThirdTest" />
+        </classes>
+    </test>
+</suite>

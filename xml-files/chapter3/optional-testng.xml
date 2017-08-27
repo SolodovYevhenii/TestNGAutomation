@@ -1,0 +1,23 @@
+<suite name="Optional test Suite" verbose="1">
+    <test name="Optional Test one">
+        <classes>
+            <class name="com.packt.testng.chapter3.OptionalTest" />
+        </classes>
+    </test>
+    <test name="Optional Test two">
+        <parameter name="optional-value" value="passed from xml" />
+        <classes>
+            <class name="com.packt.testng.chapter3.OptionalTest" />
+        </classes>
+    </test>
+    <test name="Optional Test three">
+        <parameter name="optional-value-two" value="passed from xml" />
+        <classes>
+            <class name="com.packt.testng.chapter3.OptionalTest">
+                <methods>
+                    <include name="optionTestTwo" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

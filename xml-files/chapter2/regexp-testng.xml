@@ -1,0 +1,20 @@
+<suite name="Regular Exp Suite" verbose="1">
+    <test name="Regular Exp Test with Include">
+        <classes>
+            <class name="com.packt.testng.chapter2.RegularExpClass">
+                <methods>
+                    <include name=".*Test.*" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+    <test name="Regular Exp Test with Exclude">
+        <classes>
+            <class name="com.packt.testng.chapter2.RegularExpClass">
+                <methods>
+                    <exclude name=".*Test.*" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

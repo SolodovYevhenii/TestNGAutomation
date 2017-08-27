@@ -1,0 +1,11 @@
+<suite name="Method Suite" verbose="1" >
+    <test name="Method Test" >
+        <classes>
+            <class name="com.packt.testng.chapter2.SecondTest">
+                <methods>
+                    <include name="firstTest" />
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>

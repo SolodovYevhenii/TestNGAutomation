@@ -1,0 +1,7 @@
+<suite name="Simple Test Methods Suite" parallel="methods" thread-count="2" >
+    <test name="Simple test">
+        <classes>
+            <class name="com.packt.testng.chapter7.SimpleTestMethods" />
+        </classes>
+    </test>
+</suite>

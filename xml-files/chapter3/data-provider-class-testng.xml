@@ -1,0 +1,7 @@
+<suite name="Another class test Suite" verbose="1">
+    <test name="Another class Test">
+        <classes>
+            <class name="com.packt.testng.chapter3.AnotherClassDataProvider" />
+        </classes>
+    </test>
+</suite>

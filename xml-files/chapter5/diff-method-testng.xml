@@ -1,0 +1,8 @@
+<suite name="Different class dependency Suite" verbose="1">
+    <test name="Different class dependency Test">
+        <classes>
+            <class name="com.packt.testng.chapter5.InheritedTest" />
+            <class name="com.packt.testng.chapter5.SimpleDependencyTest" />
+        </classes>
+    </test>
+</suite>

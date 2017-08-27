@@ -1,0 +1,7 @@
+<suite name="Inheritance Suite" verbose="1" >
+    <test name="Inheritance Test" >
+        <classes>
+            <class name="com.packt.testng.chapter3.ChildClass" />
+        </classes>
+    </test>
+</suite>

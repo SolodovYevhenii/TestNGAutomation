@@ -1,0 +1,15 @@
+<suite name="Simple xml dependency Suite" verbose="1">
+    <test name="Simple xml dependency Test">
+        <groups>
+            <dependencies>
+                <group name="dependent-group" depends-on="test-group" />
+            </dependencies>
+            <run>
+                <include name="dependent-group" />
+            </run>
+        </groups>
+        <classes>
+            <class name="com.packt.testng.chapter5.groups.SimpleXmlDependency" />
+        </classes>
+    </test>
+</suite>
